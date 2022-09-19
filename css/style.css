@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1350px;
+    margin-left: 220px;
+    background-color: red;
+    height: 50px;
+    display: flex;
+}
+
+.header {
+    width: 20%;
+    background-color: black;
+    height: 50px;
+}
+
+.utilities {
+    flex: 2;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+.logo {
+    flex: 1;
+}
+.log-in {
+    flex: 1;
+}
