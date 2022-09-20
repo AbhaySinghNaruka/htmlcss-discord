@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+
+
+
+/* adjusting blocks */
+
+
+
+
 html {
     font-family: 'Roboto', sans-serif;
 }
@@ -143,6 +151,21 @@ li {
     background-color: green;
 }
 
+.first-row-text {
+    height: 20%;
+    background-color: red;
+}
+
+.bottom-container-img {
+    height: 60%;
+    background-color: blue;
+}
+
+.bottom-row-text {
+    height: 20%;
+    background-color: purple;
+}
+
 .first-footer {
     height: 80%;
     background-color: black;
@@ -165,6 +188,13 @@ li {
     background-color: aquamarine;
 }
 
+.second-footer {
+    background-color: black;
+    /* border-style: solid;
+    border-radius: 5px;
+    border-color: red; */
+}
+
 .second-footer-items {
     display: flex;
     justify-content: space-between;
@@ -179,4 +209,31 @@ li {
 .footer-btn {
     background-color: black;
     color: white;
+}
+
+
+
+/* adding content in the blocks */
+
+
+.first-image {
+    background-image: url("../img/item1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.second-image {
+    background-image: url("../img/item2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.grey-section .img-right-side {
+    flex-direction: row-reverse;
+}
+
+.third-image {
+    background-image: url("../img/item3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
