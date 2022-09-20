@@ -8,7 +8,7 @@
 
 
 
-/* adjusting blocks */
+/* adjusting blocks --------------------------------------------------- */
 
 
 
@@ -66,6 +66,7 @@ header  {
 .nav-links {
     flex: 2;
     text-align: center;
+    
 }
 
 .nav-login {
@@ -73,10 +74,10 @@ header  {
     text-align: end;
 }
 
-/* ul {
+.list-nav-links {
     display: flex;
     justify-content: center;
-} */
+}
 
 
 a {
@@ -94,15 +95,18 @@ li {
     color: black;
 }
 
-.welcome {
+.welcome{
     max-width: 50%;
     height: 80%;
     margin: 0 auto;
-    background-color: blue;
+    /* background-color: blue; */
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: center;  
 }
+
+
+
 .btn-white {
     background-color: white;
     color: black;
@@ -122,7 +126,7 @@ li {
 }
 
 .grey-section {
-    background-color:lightgrey;
+    background-color:rgb(238, 238, 238);
     height: 100%;
     width: 100%;
     padding-top: 30px;
@@ -131,7 +135,7 @@ li {
 
 .blue-content {
     height: 80%;
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
     /* margin-top: 30px;
     margin-bottom: 30px; */
     width: 65%;
@@ -139,7 +143,7 @@ li {
 
 .pink-content {
     height: 80%;
-    background-color: lightpink;
+    /* background-color: lightpink; */
     /* margin-top: 30px;
     margin-bottom: 30px; */
     width: 35%;
@@ -147,22 +151,22 @@ li {
 
 .bottom-container {
     height: 931px;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .first-row-text {
     height: 20%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .bottom-container-img {
     height: 60%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .bottom-row-text {
     height: 20%;
-    background-color: purple;
+    /* background-color: purple; */
 }
 
 .first-footer {
@@ -178,13 +182,13 @@ li {
 .pink-footer {
     height: 80%;
     width: 100%;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .aqua-footer {
     height: 80%;
     width: 50%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .second-footer {
@@ -212,13 +216,17 @@ li {
 
 
 
-/* adding content in the blocks */
+/* adding content in the blocks -----------------------------------*/
 
 
-.first-image {
+/* .first-image {
     background-image: url("../img/item1.svg");
     background-repeat: no-repeat;
     background-size: contain;
+} */
+
+.first-image {
+    text-align: right;
 }
 
 .second-image {
@@ -231,16 +239,21 @@ li {
     flex-direction: row-reverse;
 }
 
-.third-image {
+/* .third-image {
     background-image: url("../img/item3.svg");
     background-repeat: no-repeat;
     background-size: contain;
+} */
+
+.third-image {
+    text-align: right;
 }
 
 /* .bottom-container .bottom-container-img {
     background-image: url("../img/item4-big.svg");
     background-repeat: no-repeat;
     background-size: contain;
+    width: 100%;
 }
  */
 
@@ -248,3 +261,17 @@ li {
     text-align: center;
  }
 
+li {
+    display: block;
+}
+
+.first-row-text {
+    text-align: center;
+}
+
+.bottom-row-text {
+    text-align: center;
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
