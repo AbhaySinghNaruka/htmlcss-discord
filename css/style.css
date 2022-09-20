@@ -165,10 +165,18 @@ li {
     background-color: aquamarine;
 }
 
-/* .second-footer-items {
+.second-footer-items {
     display: flex;
+    justify-content: space-between;
+    height: 30px;
 }
 
-{
+.footer-logo{
+    background-color: black;
+    color: white;
+}
 
-} */
+.footer-btn {
+    background-color: black;
+    color: white;
+}
